@@ -33,8 +33,11 @@ class Result(Factorials):
 
 
 if __name__=="__main__":
+    
+    start=int(input("Enter the start range value : "))
+    stop=int(input("Enter the stop value : "))
 
-    obj3=Result(10,15)
+    obj3=Result(start,stop)
     obj3.addition()
     obj3.findingprimenum()
     obj3.findingfact()
